@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centered container with a clean card-like look */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Heading styling */
+h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Labels for inputs */
+label {
+    display: block;
+    margin: 5px 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Disable typing in the result field */
+#result {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+/* Button layout */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Button styling */
+button {
+    padding: 10px;
+    border: none;
+    background: #0a0f13;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+/* Hover effect */
+button:hover {
+    background: #495057;
+    transform: scale(1.05);
+}
+
+/* Responsive design */
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
+
+
